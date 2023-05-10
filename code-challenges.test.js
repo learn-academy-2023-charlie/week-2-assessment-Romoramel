@@ -43,6 +43,14 @@ console.log(multiplesOfThree(numbersArray2))
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
 
 // Pseudo code:
+    // input: object x that is divisible by three
+    // return: x divided by three
+    // const divisibleByThree = (object) => {
+    //     if(object.number % 3 === 0) {
+    //         return '${object.number} is divisible by three'
+    //     }
+    // }
+
 
 // a) Create a test with expect statements for each of the variables provided.
 
@@ -74,6 +82,9 @@ const divisibleByThree = (object) => {
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
 // Pseudo code:
+// input: create function
+// output: array with all words capitalised
+// array.map iterates through the and the array.slice to pull from arrray
 
 // a) Create a test with expect statements for each of the variables provided.
 
@@ -100,6 +111,13 @@ const capArr = (array) => {
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
 
 // Pseudo code:
+// input:create function for a string
+// output: logged index of the strings first vowel
+// const firstV = (array) => {
+    // const vowels = ['a', 'e', 'i', 'o', 'u']
+    // for(let i = 0; i < array.length; i++) {
+    //     if(vowels.includes(array[i])) {
+    //         return i
 
 // a) Create a test with expect statements for each of the variables provided.
 
@@ -130,5 +148,3 @@ const firstV = (array) => {
     }
     return-1
 }
-
-// hmmmm
